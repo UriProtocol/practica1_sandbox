@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  font-size: 1.3rem;
+}
+.verde,
+.amarillo {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.verde {
+  color: #449876;
+}
+.amarillo {
+  color: #d9bc55;
+}
+button a {
+  color: #e9e6e9;
+  text-decoration: none;
+}
+button {
+  background-color: #142b28;
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 50vmax;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+button:hover {
+  filter: saturate(2);
+  translate: 0 0.2rem;
+}
